@@ -29,6 +29,7 @@ $script:soft = @(
     "vim",
     "virtualbox",
     "visualstudiocode",
+    "wget",
     "wireshark"
 )
 $script:soft | % { choco install -y $_ }
