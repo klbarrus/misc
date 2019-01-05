@@ -45,6 +45,7 @@ $script:soft = @(
     "sublime-text",
     "sumatrapdf",
     "sysinternals",
+    "typora",
     "vim",
     "vscode",
     "wget",
