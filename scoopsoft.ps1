@@ -47,6 +47,7 @@ $script:soft = @(
     "sysinternals",
     "typora",
     "vim",
+    "vlc",
     "vscode",
     "wget",
     "wireshark",
