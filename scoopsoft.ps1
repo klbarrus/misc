@@ -26,6 +26,7 @@ $script:soft = @(
     "meld",
     "mpv",
     "nasm",
+    "neovim",
     "ninja",
     "notepadplusplus",
     "nmap",
