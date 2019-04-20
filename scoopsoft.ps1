@@ -1,3 +1,5 @@
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+scoop bucket add extras
 $script:soft = @()
 $script:soft = @(
     "7zip",
@@ -24,20 +26,20 @@ $script:soft = @(
     "linqpad",
     "llvm",
     "meld",
-    "mpv",
+#    "mpv",
     "nasm",
     "neovim",
     "ninja",
     "notepadplusplus",
     "nmap",
-    "openssh",
+#    "openssh",
     "openssl",
     "pdftk",
     "postman",
     "processhacker",
     "pycharm",
     "python",
-    "qemu",
+#    "qemu",
     "radare2",
     "ripgrep",
     "rust",
@@ -48,7 +50,7 @@ $script:soft = @(
     "sysinternals",
     "typora",
     "vim",
-    "vlc",
+#    "vlc",
     "vscode",
     "wget",
     "wireshark",
