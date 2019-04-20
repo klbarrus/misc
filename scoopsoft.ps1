@@ -1,4 +1,5 @@
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+scoop install git
 scoop bucket add extras
 $script:soft = @()
 $script:soft = @(
