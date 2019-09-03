@@ -4,6 +4,6 @@ Get-ChildItem -Filter *.xz  | ForEach-Object { &("c:\program files\7-zip\7z.exe"
 Get-ChildItem -Filter *.tar | ForEach-Object { &("c:\program files\7-zip\7z.exe") -y x $_.FullName }
 Remove-Item *.tar
 
-Get-ChildItem *-6.0.0.src | Rename-Item -NewName { $_.Name -Replace '-6.0.0.src',''}
+Get-ChildItem *-8.0.1.src | Rename-Item -NewName { $_.Name -Replace '-8.0.1.src',''}
 
 Rename-Item cfe clang
