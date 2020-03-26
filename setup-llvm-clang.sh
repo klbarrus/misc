@@ -1,10 +1,10 @@
-#!/usr/bin/env bash
+#!/bin/bash
 for i in *.xz; do
   tar xJf $i
 done
 
 for i in *.src; do
-  mv "$i" "${i/-9.0.0.src//}"
+  mv "$i" "${i/-10.0.0.src//}"
 done
 
-mv cfe clang
+#mv cfe clang
